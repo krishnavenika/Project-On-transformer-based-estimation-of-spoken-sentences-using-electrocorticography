@@ -1,2 +1,1 @@
-# FIRST
-It is created for practice purpose
+# Transformer_Based_Estimation_Electrocorticography
