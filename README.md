@@ -26,9 +26,15 @@ This is the model architecture and decoding pipeline. The details of the Transfo
 The diagram depicts the architecture of a sequence-to-sequence artificial neural network. A temporal convolution network, an encoder network, and a decoder network are used to process the sequences.
 In the encoder layer, a Transformer encoder is employed, the outputs of which are trained to be MFCCs(Mel Frequency Cepstral Coefficients). If  BLSTM layers are utilized in the encoder stage, then it corresponds to Makin's model. Although a Transformer decoder might be used at the decoder stage, the LSTM decoder was chosen for reasons of sufficiency for decoding simple sentences.
 The temporal convolution (CNN)layer effectively downsamples the ECoG preprocessed signals. 
-![image](https://github.com/krishnavenika/FIRST/assets/107589860/16fbb849-cd74-432d-bb91-600f2131d5cc)
+![image](https://github.com/krishnavenika/FIRST/assets/107589860/e586012c-43bf-4d2f-83bf-21d8fa824abd)
 
-![image](https://github.com/krishnavenika/FIRST/assets/107589860/7833661e-5925-4861-8a13-72f02b4c0471)
+**Transformer Model**
+![image](https://github.com/krishnavenika/FIRST/assets/107589860/0c3c1e58-0b4b-49f3-9939-391807b7aefd)
+Transformer is a type of machine learning model designed for processing the sequences. This is mainly focused on Natural Language tasks.
+The transformer is a new architecture which is based on attention mechanisms which improves translation quality. The Transformer is unique in that it uses attention based approach for almost everything. 
+The Transformer expands its idea by repeatedly paying attention to an input and relying on traditional feed forward neural networks to transform that input into something useful. Transformers continue to use traditional neural networks, though their significance has diminished. 
+
+
 
 
 
