@@ -8,31 +8,23 @@ Several decoding techniques are available to achieve BMI. One such technique is 
 Electrocorticography (ECoG) is invasive bmi
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/cc930e3f-dc7f-4253-9dd5-0301484f10af)
 
-Electroencephalograph (EEG) is non invasive.
-
-![image](https://github.com/krishnavenika/FIRST/assets/107589860/a3ec91e2-9e24-4c93-a3ea-a7de45c6c532)
-
 **What is Electrocorticography(Ecog) ?**
 Electrocorticography is the process of recording electrical activity in the brain by placing electrodes in direct contact with the cerebral cortex or surface of the brain.
 Signals received are invasive in nature and they have excellent spatial and spectral resolution compared with EEG(Electroencephalography).
 ECoG has been used to study a range of speech decoding methods, ranging from phoneme-based decoding to sentence-based decoding and for speaking, listening, and imagining brain activities.
+
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/5311393f-806a-412d-baff-b4a709623e26)
 
 This is the model architecture and decoding pipeline. The details of the Transformer encoder in the proposed neural network, which is the most unique characteristic of this network.
 
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/b39aa5eb-782e-4110-a9d3-30c3faf98d05)
+
 **Neural Network Architecture**
 The diagram depicts the architecture of a sequence-to-sequence artificial neural network. A temporal convolution network, an encoder network, and a decoder network are used to process the sequences.
 In the encoder layer, a Transformer encoder is employed, the outputs of which are trained to be MFCCs(Mel Frequency Cepstral Coefficients). If  BLSTM layers are utilized in the encoder stage, then it corresponds to Makin's model. Although a Transformer decoder might be used at the decoder stage, the LSTM decoder was chosen for reasons of sufficiency for decoding simple sentences.
 The temporal convolution (CNN)layer effectively downsamples the ECoG preprocessed signals. 
-
-
-
-
-
-
-
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/16fbb849-cd74-432d-bb91-600f2131d5cc)
+
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/7833661e-5925-4861-8a13-72f02b4c0471)
 
 
