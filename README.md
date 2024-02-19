@@ -6,7 +6,8 @@ BMIs can either be invasive or non-invasive. Invasive brain mapping includes sur
 
 Several decoding techniques are available to achieve BMI. One such technique is Electrocorticography (Ecog).
 Electrocorticography (ECoG) is invasive bmi
-![image](https://github.com/krishnavenika/FIRST/assets/107589860/cc930e3f-dc7f-4253-9dd5-0301484f10af)
+![image](https://github.com/krishnavenika/FIRST/assets/107589860/ef46b55c-fb88-4ce2-8a5d-acaedaa62c1f)
+
 
 **What is Electrocorticography(Ecog) ?**
 Electrocorticography is the process of recording electrical activity in the brain by placing electrodes in direct contact with the cerebral cortex or surface of the brain.
