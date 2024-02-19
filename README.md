@@ -1,4 +1,5 @@
-# Transformer_Based_Estimation_Electrocorticography
+# TRANSFORMER BASED ESTIMATION OF SPOKEN SENTENCES USING ELECTROCORTICOGRAPHY
+
 **What is Brain machine interfacing (BMI) ?**
 Brain-machine interfaces (BMIs) are devices that bridge human brain and an external device. They can read human brain activity and communicate that information directly to a computer system. BMIs could help a patient control a robotic prosthesis or enable the user to type into a word processor using only their thoughts.
 
