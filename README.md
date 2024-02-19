@@ -8,6 +8,8 @@ Several decoding techniques are available to achieve BMI. One such technique is 
 Electrocorticography (ECoG) is invasive bmi
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/ef46b55c-fb88-4ce2-8a5d-acaedaa62c1f)
 
+Non invasive Bmi
+![image](https://github.com/krishnavenika/FIRST/assets/107589860/485bb089-2b77-4825-a2cc-ecb48d77e655)
 
 **What is Electrocorticography(Ecog) ?**
 Electrocorticography is the process of recording electrical activity in the brain by placing electrodes in direct contact with the cerebral cortex or surface of the brain.
@@ -17,8 +19,8 @@ ECoG has been used to study a range of speech decoding methods, ranging from pho
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/5311393f-806a-412d-baff-b4a709623e26)
 
 This is the model architecture and decoding pipeline. The details of the Transformer encoder in the proposed neural network, which is the most unique characteristic of this network.
+![image](https://github.com/krishnavenika/FIRST/assets/107589860/9dacc681-e06c-4db8-bbfb-da24dffb6a3b)
 
-![image](https://github.com/krishnavenika/FIRST/assets/107589860/b39aa5eb-782e-4110-a9d3-30c3faf98d05)
 
 **Neural Network Architecture**
 The diagram depicts the architecture of a sequence-to-sequence artificial neural network. A temporal convolution network, an encoder network, and a decoder network are used to process the sequences.
