@@ -7,9 +7,11 @@ BMIs can either be invasive or non-invasive. Invasive brain mapping includes sur
 
 Several decoding techniques are available to achieve BMI. One such technique is Electrocorticography (Ecog).
 Electrocorticography (ECoG) is invasive bmi
+
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/ef46b55c-fb88-4ce2-8a5d-acaedaa62c1f)
 
 Non invasive Bmi
+
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/485bb089-2b77-4825-a2cc-ecb48d77e655)
 
 **What is Electrocorticography(Ecog) ?**
@@ -20,6 +22,7 @@ ECoG has been used to study a range of speech decoding methods, ranging from pho
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/5311393f-806a-412d-baff-b4a709623e26)
 
 This is the model architecture and decoding pipeline. The details of the Transformer encoder in the proposed neural network, which is the most unique characteristic of this network.
+
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/9dacc681-e06c-4db8-bbfb-da24dffb6a3b)
 
 
@@ -31,6 +34,7 @@ The temporal convolution (CNN)layer effectively downsamples the ECoG preprocesse
 
 **Transformer Model**
 ![image](https://github.com/krishnavenika/FIRST/assets/107589860/0c3c1e58-0b4b-49f3-9939-391807b7aefd)
+
 Transformer is a type of machine learning model designed for processing the sequences. This is mainly focused on Natural Language tasks.
 The transformer is a new architecture which is based on attention mechanisms which improves translation quality. The Transformer is unique in that it uses attention based approach for almost everything. 
 The Transformer expands its idea by repeatedly paying attention to an input and relying on traditional feed forward neural networks to transform that input into something useful. Transformers continue to use traditional neural networks, though their significance has diminished. 
